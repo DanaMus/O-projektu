@@ -76,6 +76,10 @@ main {
   padding-left: 100px;
 }
 
+.reading__paragraph--left {
+  padding: 0;
+}
+
 @media screen and (max-width: 750px) {
   .reading__paragraph--strong {
     padding-left: 30px;
