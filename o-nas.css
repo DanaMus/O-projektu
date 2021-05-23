@@ -50,9 +50,11 @@ header {
 .aboutus {
   display: flex;
   margin: 40px auto;
+  box-shadow: 5px 5px 5px 5px rgb(199, 192, 192);
+  border-radius: 10px;
 }
 
-.aboutus__one {
+.aboutus__one, .aboutus__two {
   width: 45%;
   margin: 5%;
   padding: 5%;
@@ -67,7 +69,7 @@ header {
 }
 
 footer {
-  background-color: rgb(88, 156, 177);
+  background-color: #8bbbdb;
   padding: 15px;
   font-size: 26px;
   text-align: center;

@@ -7,9 +7,7 @@ padding: 0;
 
 /* HEADER */
 
-header {
-  padding: 20px;
-}
+
 
 .menu {
   display: flex;
@@ -92,7 +90,7 @@ h3 {
 
 /* FOOTER */
 footer {
-  background-color: rgb(88, 156, 177);
+  background-color: #8bbbdb;
   padding: 15px;
   font-size: 26px;
   text-align: center;
@@ -114,15 +112,14 @@ footer {
 
 .container {
   display: flex;
-  margin-bottom: 20px;
   padding: 20px;
+  background-color: #e2e8ec;
 }
 
 .container-two {
   background-color: #8bbbdb;
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 20px;
   padding: 20px;
 }
 
