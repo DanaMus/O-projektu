@@ -11,7 +11,7 @@ h1 {
   text-align: center;
 }
 
-.hero {
+/* .hero {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -36,11 +36,43 @@ h1 {
   position: absolute;
   left: 100px;
   bottom: 40px;
-}
+} */
 
 main {
   max-width: 800px;
   margin: 0 auto;
+}
+
+header {
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menu--odkazy {
+}
+
+.menu--odkazy a {
+  margin: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+
+.logo {
+  background-image: url(img/logo-monsters.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
 }
 
 .aboutus {
