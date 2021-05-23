@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menu--odkazy {
+}
+
+.menu--odkazy a {
+  margin: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+
+.logo {
+  background-image: url(img/logo-monsters.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+}
+
+.aboutus {
+  display: flex;
+  margin: 40px auto;
+}
+
+.aboutus__one {
+  width: 45%;
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+}
+
+.aboutus__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

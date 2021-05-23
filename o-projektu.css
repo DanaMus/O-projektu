@@ -75,24 +75,6 @@ header {
   height: 100px;
 }
 
-.aboutus {
-  display: flex;
-  margin: 40px auto;
-}
-
-.aboutus__one {
-  width: 45%;
-  margin: 5%;
-  padding: 5%;
-  text-align: center;
-}
-
-.aboutus__image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
 .reading {
   line-height: 2;
   padding: 100px;
