@@ -11,33 +11,6 @@ h1 {
   text-align: center;
 }
 
-/* .hero {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background-color: rgb(142, 240, 232);
-  height: 400px;
-  position: relative;
-}
-
-.hero__image {
-  width: 40%;
-}
-
-.hero__paragraph {
-  padding: 50px 0 0 50px;
-  font-size: 2em;
-}
-
-.hero__paragraph--bold {
-  margin: 0;
-  font-weight: bold;
-  font-size: 2.5em;
-  position: absolute;
-  left: 100px;
-  bottom: 40px;
-} */
-
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -54,7 +27,6 @@ header {
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
 
 .menu--odkazy a {
   margin: 20px;
@@ -102,11 +74,5 @@ footer {
 @media screen and (max-width: 750px) {
   .reading__paragraph--strong {
     padding-left: 30px;
-  }
-  .aboutus {
-    display: block;
-  }
-  .aboutus__one {
-    width: 100%;
   }
 }

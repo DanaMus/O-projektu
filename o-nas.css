@@ -54,7 +54,8 @@ header {
   border-radius: 10px;
 }
 
-.aboutus__one, .aboutus__two {
+.aboutus__one,
+.aboutus__two {
   width: 45%;
   margin: 5%;
   padding: 5%;
@@ -73,4 +74,13 @@ footer {
   padding: 15px;
   font-size: 26px;
   text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .aboutus {
+    display: block;
+  }
+  .aboutus__one {
+    width: 100%;
+  }
 }
